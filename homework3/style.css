@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    /* bring boxes side by side */
+    display: flex; 
+    /* center the container*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* size of main container */
+    width: 1250px;
+    height: 100%; /* 874px -> scroll */
+}
+
+/* Style of left part */
+.boxLeft{
+    width: 427px;
+    height: 100vh;
+    background: #FFCC81;
+}
+
+.logo{
+    width: 66px;
+    margin: 70px 0px 0px 45px; 
+}
+
+.textLeft{
+    font-weight: 800;
+    font-size: 30px;
+    color: #000000;
+    margin-left: 45px;
+}
+
+.pic{
+    width: 100%;
+    margin-top: 110px; /* 171px */
+}
+
+/* Style of right part */
+
+.boxRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 823px;
+    height: 100vh;
+    background: #E5E5E5; /* figma color */
+    
+}
+.formArea{
+    width: 432px;
+}
+.textRight{
+    align-self: flex-start;
+    font-size: 24px;
+    font-weight: 800;
+    color: #000000;
+    width: 432px;
+}
+/* style for: sign up with google + twitter + fb icons */
+.signUpArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.signUp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 294px;
+    height: 48px;
+    background: #3F96D4;
+    border-radius: 5px;
+    
+}
+.signUp i{
+    color: white; /* style color of Google icon */
+}
+.signUp a{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 43px; /* 60 - 17 */
+}
+/* style for ___ or ___ */
+.line{
+    width: 190px;
+    border: 1px solid #CFCFCF;
+}
+.lines_with_or{
+    margin-top: 20px;
+    color: #878888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* style for fullname + username*/
+.fullnameUsername{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* style for all input + label pairs */
+.inputStyle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+.termsCheckBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.termsCheckBox label{
+    width: 400px;
+    color: #878888;
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    background-color: #fff;
+    margin: 0px 10px 0px 0px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #878888;
+    border-radius: 5px;
+}
+
+.createAccount{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    
+}
+
+#create{
+    background-color: #FF467E;
+    color: white;
+    height: 48px;
+    width: 185px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blueLink{
+    color:  #137ECB;
+}
+
+/* style for: fullname, username, email, password labels */
+.inputBoxLabel{
+   color: #000000;
+   font-weight: 700;
+   font-size: 14px;
+   margin-bottom: 8px;
+
+}
+/* style for: fullname, username, email, password input */
+.inputBox{
+    background-color: #F2F2F2;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+}
+
+input[type="password"]::placeholder {
+  padding-left: 20px;
+}
+
+
+
+.signIn{
+    text-decoration: none;
+}

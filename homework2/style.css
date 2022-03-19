@@ -1,0 +1,74 @@
+* {
+    font-family: 'Sora', sans-serif; /* effects all texts */
+    margin: 0px; /* removes default margin */
+}
+
+h1 {
+    margin: 20px 0 20px 0; /* top right bottom left */
+}
+#text {
+    font-style: italic;
+    background-color: black;
+    color: white;
+}  
+.container { 
+    display: flex;
+}
+
+/* common properties of 3 boxes */
+.box1 { 
+    width: 150px;
+    height: 150px;
+}
+
+.blue {
+    background-color: #4169e2;
+    margin-top: 45px;
+}
+.gray {
+    background-color: gray;
+    margin: 70px 30px 0 30px;
+}
+
+.green {
+    background-color: green;
+    margin-top: 15px;
+}
+
+.box2 {
+    width: 340px;
+    height: 250px;
+    box-sizing: border-box; /* maintains designed width */
+    padding: 15px; /* space inside border */
+    margin-top: 50px;
+    border: 3px solid red;
+    background-color: bisque;
+    text-align: center;
+}
+
+
+#box2-text {
+    font-size: 10px;
+}
+
+h4{
+    font-size: 12px;    
+}
+
+.box2-h4{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.box3 {
+    width: 420px;
+    height: 150px;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+    border: 3px dashed black;
+    background-color: #fedab8;
+    margin: 50px;
+}
+
+   
