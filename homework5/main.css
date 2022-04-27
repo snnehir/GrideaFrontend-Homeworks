@@ -1,3 +1,4 @@
+/* Sumeyye Nur Nehir */
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap");
 * {
   margin: 0;
@@ -11,7 +12,7 @@ a {
 
 /* header style */
 .header-container {
-  background-image: url("bg.png");
+  background-image: url("images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
