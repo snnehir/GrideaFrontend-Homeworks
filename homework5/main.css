@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap");
+* {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* header style */
+.header-container {
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.header-container .nav-bar {
+  padding: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 14px;
+}
+
+.header-container .nav-bar nav {
+  width: 360px;
+}
+
+.header-container .nav-bar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-container .nav-bar nav ul li {
+  list-style: none;
+}
+
+.header-container .nav-bar nav select {
+  background-color: rgba(102, 51, 153, 0);
+  color: white;
+  border: none;
+  outline: unset;
+  font-size: 14px;
+}
+
+.header-container .nav-bar #logo {
+  font-size: 20px;
+}
+
+.header-container .nav-bar #start-free-btn {
+  background-color: #FF7F5C;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.header-container .header-content {
+  width: 65%;
+  margin: auto;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.header-container .header-content h1 {
+  font-size: 60px;
+}
+
+.header-container .header-content p {
+  padding: 30px 140px;
+  font-size: 20px;
+}
+
+.header-container .header-content .header-content-buttons {
+  width: 42%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-container .header-content .header-content-buttons #get-started-btn {
+  background-color: #FF7F5C;
+  border-radius: 40px;
+  padding: 20px 35px;
+}
+
+.header-container .header-content .header-content-buttons .see-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-container .header-content .header-content-buttons .see-btn a img {
+  margin-right: 10px;
+}
+
+.header-container #dashboard {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* businesses section style */
+.businesses-section {
+  width: 90%;
+  margin: auto;
+}
+
+.businesses-section p {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.businesses-section .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* introduction style */
+.introduction-section {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.introduction-section div h5 {
+  color: #3734A9;
+  font-size: 18px;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+
+.introduction-section div h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.introduction-section div p {
+  color: #757095;
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.introduction-section div a {
+  display: inline-block;
+  background: #3734A9;
+  border-radius: 5px;
+  padding: 16px 40px;
+}
+
+.our-future div {
+  margin-left: 50px;
+}
+
+.our-feature div {
+  margin-right: 50px;
+}
+
+/* pros/advantageous style */
+.pros-section {
+  padding: 70px 0;
+  background-color: #3734A9;
+}
+
+.pros-section .title-and-btn {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.pros-section .title-and-btn h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.pros-section .title-and-btn a {
+  font-size: 18px;
+  background: #FF7F5C;
+  border-radius: 10px;
+  padding: 16px 25px;
+}
+
+.pros-section .pros-section-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.pros-section .pros-section-content .pros {
+  width: 25%;
+}
+
+.pros-section .pros-section-content .pros .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.pros-section .pros-section-content .pros .item h1 {
+  background-color: #1b1c313b;
+  color: #E8F2FF;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px 25px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.pros-section .pros-section-content .pros .item p {
+  color: #A0B3E9;
+  line-height: 32px;
+}
+
+.pros-section .pros-section-content .pros .item h3 {
+  line-height: 32px;
+  color: #E8F2FF;
+}
+
+/* join style */
+.join-section {
+  text-align: center;
+  padding: 60px 30px;
+}
+
+.join-section p {
+  font-size: 50px;
+}
+
+.join-section a {
+  display: inline-block;
+  margin-top: 20px;
+  color: black;
+  background-color: #F9896B;
+  padding: 16px 25px;
+  border-radius: 5px;
+}
+
+/* footer style */
+footer {
+  background-color: #1B1C31;
+}
+
+footer div {
+  width: 80%;
+  margin: auto;
+  padding: 30px 0;
+  color: white;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=main.css.map */
