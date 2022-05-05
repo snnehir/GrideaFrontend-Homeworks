@@ -23,3 +23,11 @@ a{
     border: 1px solid #d7d7d7; 
     border-radius: 3px;
 }
+#totoro{
+    display: block;
+    width: 150px;
+    margin: auto;
+}
+p > a {
+    color: #86cc86;
+}
